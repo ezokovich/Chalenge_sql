@@ -35,4 +35,4 @@ WHERE
   
   *  to delete a client
   
-  DELETE FROM `test`.`info_utilisateur`  WHERE `id_film` = 'id_Number';
+  DELETE FROM `test`.`info_utilisateur`  WHERE `id_client` = 'id_Number';
