@@ -36,3 +36,7 @@ WHERE
   *  to delete a client
   
   DELETE FROM `test`.`info_utilisateur`  WHERE `id_client` = 'id_Number';
+  
+  *  to display the last 3 movies added
+  *  
+    SELECT * FROM `info_utilisateur` ORDER BY `id_client` DESC LIMIT 3;
